@@ -30,3 +30,6 @@ wait-timeout = { version = "0.2", optional = true }
 [features]
 default = [ "timeout" ]
 timeout = [ "wait-timeout" ]
+[patch.crates-io]
+wait-timeout = { git = "https://github.com/cristibctr/wait-timeout", branch = "main"}
+tempfile = {git = "https://github.com/cristibctr/tempfile", branch = "v3.16.0"}
